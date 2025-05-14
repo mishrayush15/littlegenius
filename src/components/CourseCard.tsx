@@ -68,13 +68,8 @@ const CourseCard = ({
         <span className="text-xs font-semibold text-primary">{category}</span>
         <h3 className="font-bold text-lg mt-1 line-clamp-2 h-14">{title}</h3>
         <div className="flex items-center gap-1 mt-2">
-          <div className="flex items-center text-yellow-500">
-            <Star size={16} fill="currentColor" />
-          </div>
-          <span className="text-sm font-medium">{rating.toFixed(1)}</span>
-          <span className="text-xs text-gray-500">
-            ({Math.floor(Math.random() * 500) + 100} reviews)
-          </span>
+          
+      
         </div>
         <div className="flex gap-3 mt-3 text-xs text-gray-500">
           {totalLessons && <span>{totalLessons} lessons</span>}
