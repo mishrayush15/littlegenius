@@ -50,14 +50,14 @@ const ChatBot = () => {
       const endResponse = await model.generateContent(endPrompt);
 
       const endText = endResponse.response.text();
-      if (endText?.toLowerCase().includes("yes")) {
-        setMessages((prev) => [
-          ...prev,
-          { role: "assistant", content: "Keep learning! Goodbye!" },
-        ]);
-        setTimeout(() => setIsOpen(false), 2000);
-        return;
-      }
+      // if (endText?.toLowerCase().includes("yes")) {
+      //   setMessages((prev) => [
+      //     ...prev,
+      //     { role: "assistant", content: "Keep learning! Goodbye!" },
+      //   ]);
+      //   setTimeout(() => setIsOpen(false), 2000);
+      //   return;
+      // }
 
       // Get AI response
       const prompt = `
