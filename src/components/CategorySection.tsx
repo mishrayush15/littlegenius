@@ -70,7 +70,7 @@ const CategorySection = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
           {categories.map((category) => (
             <Link
-              to={`/category/${category.name.toLowerCase()}`}
+              to={`/`}
               key={category.name}
               className="category-card block"
               style={{ aspectRatio: "1", minWidth: "140px", minHeight: "140px" }}
