@@ -258,10 +258,6 @@ const Index = () => {
             <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
               Join thousands of young learners and start your journey with our completely free courses today.
             </p>
-            
-            <p className="mt-6 text-sm text-gray-500">
-              Are you an instructor? <a href="/login" className="text-primary hover:underline">Login</a> to create courses
-            </p>
           </div>
         </section>
       </main>
